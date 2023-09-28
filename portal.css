@@ -1,4 +1,21 @@
+body{
+    background-color: lightcyan
+}
+
+
 a {
     background-color: lightblue;
-    color: black
+    color: black;
+    text-decoration: none;
+    padding: 50px;
+    margin: 10px;
+}
+nav{
+    display:flex;
+}
+#primary{
+    background-color:lightgoldenrodyellow
+}
+.background{
+    background-color: lightgoldenrodyellow
 }
