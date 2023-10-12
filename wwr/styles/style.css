@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
 #content {
     width: 1600px;
     background-color: lightgray;
+    font-family: 'Pacifico', 'Nunito Sans', sans-serif;
+}
+
+.home-title {
+    font-family: 'Segoe Script', 'Ink Free', sans-serif;
+    font-size: 3em;
+    margin-top: 10px
 }
 
 .logo {
@@ -8,8 +17,14 @@
     padding: 1.5em;
 }
 
+#logo_link {
+    padding-top: 5px;
+
+}
+
 .icon {
-    width: 60px;
+    width: 80px;
+    padding-top: 10px;
 }
 
 header {
@@ -24,6 +39,11 @@ nav {
 
 }
 
+nav a {
+    padding: 35px;
+
+}
+
 nav a:hover {
     background-color: rgb(0, 98, 255);
     text-decoration: underline;
@@ -35,24 +55,43 @@ a {
     text-decoration: none;
 }
 
+body {
+    background-color: #fcfbfb;
+    font-family: 'Raleway', 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
 .book {
-    background-color: lightgrey;
-    font-size: 1em;
+    background-color: lightslategray;
+    font-size: 18px;
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border-color: rgb(128, 128, 128);
 
 }
 
 .book:hover {
     color: rgb(0, 98, 255);
-    background-color: rgba(119, 136, 153, 0.866);
+    background-color: rgb(138, 158, 179);
 }
 
 .join {
-    font-size: 1em;
+    font-size: 18px;
     color: black;
     margin: 0 auto;
-    text-decoration:none;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -81,15 +120,43 @@ a {
 
 }
 
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid rgb(109, 121, 146);
+
+}
+
 main {
     text-align: center;
+    padding-top: 40px;
+}
 
+main section img {
+    box-sizing: border-box;
 }
 
 .msg {
     color: black;
     font-size: 1.5em;
     background-color: lightslategray;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 #background {
@@ -103,8 +170,12 @@ footer {
     font-size: 1.5em;
     background-color: lightslategray;
     text-align: center;
-    padding: 0.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
 
+footer .social img {
+    padding-top: 15px;
 }
 
 footer p {
