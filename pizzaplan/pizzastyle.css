@@ -7,7 +7,7 @@
 --accent2-color: #f77685;*/
 
 #content {
-    width: 100%;
+    width: 1600px;
     background-color: #fce2a5;
     font-family: Neuton, Helvetica, Prata;
 }
@@ -28,9 +28,7 @@
 
 #logo_link {
     padding: 20px;
-    justify-self: left;
-    align-self: left;
-
+ 
 
 }
 
@@ -75,37 +73,40 @@ nav a:hover {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(5, 350px);
+    grid-template-columns:repeat(11, 1fr);
+    grid-template-rows:repeat(8, 200px);
     padding: 20px;
 
 }
 
 #table {
-    grid-column: 4/7;
+    grid-column: 3/7;
     grid-row: 1/2;
+
 
 }
 
 .history {
     grid-column: 3/7;
-    grid-row: 3/4;
+    grid-row: 4/5;
     font-size:2em;
+    padding-top:40px;
+    
 }
 
 .pizza-past {
     grid-column: 7/9;
-    grid-row:3/5;
+    grid-row:5/6;
 }
 .pizza-past2{
     grid-column:3/4;
-    grid-row:4/6;
-    padding:50px;
+    grid-row:7/8;
+    padding-top:70px;
 }
 
 .reason {
     grid-column: 4/9;
-    grid-row: 4/5;
+    grid-row: 7/8;
     font-size:2em;
     padding:50px;
 }
@@ -138,10 +139,7 @@ nav a:hover {
     grid-template-rows: repeat(3, 1fr);
     background-color: #f8475d;
     grid-row: 1/2;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin: 50px 50px 200px 200px;
 }
 
 .me {
@@ -171,9 +169,7 @@ nav a:hover {
     color: whitesmoke
 }
 
-.about-me h1 {
-    text-decoration: none;
-}
+
 
 footer {
     color: white;
