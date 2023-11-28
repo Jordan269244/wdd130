@@ -7,9 +7,12 @@
 --accent2-color: #f77685;*/
 
 #content {
-    width: 1600px;
+    width: 100vw;
+    max-width:100vw;
     background-color: #fce2a5;
     font-family: Neuton, Helvetica, Prata;
+    margin:0 auto;
+
 }
 
 .logo {
@@ -40,6 +43,9 @@ header {
 
 
 }
+body{
+    margin:0;
+}
 
 nav {
     text-align: center;
@@ -54,7 +60,7 @@ nav {
 
 nav a {
     color: white;
-
+    padding: 5px;
 }
 
 a {
@@ -68,12 +74,12 @@ nav a:hover {
     background-color: #f8475d;
     text-decoration: underline;
     border-radius: 10px;
-    padding: 5px;
+    
 }
 
 .home-grid {
     display: grid;
-    grid-template-columns:repeat(11, 1fr);
+    grid-template-columns:repeat(10, 1fr);
     grid-template-rows:repeat(8, 200px);
     padding: 20px;
 
