@@ -94,7 +94,7 @@ nav a:hover {
 }
 .history {
     grid-column: 3/7;
-    grid-row: 4/5;
+    grid-row: 4/6;
     font-size:2em;
     padding-top:40px;
     
